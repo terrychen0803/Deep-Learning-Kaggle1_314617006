@@ -1,0 +1,18 @@
+{
+  "official_rows_after_cleaning": 2825,
+  "use_hw1": true,
+  "total_before_dedup": 6314,
+  "total_after_dedup": 6249,
+  "train_examples": 5749,
+  "valid_examples": 500,
+  "answer_distribution_all": {
+    "A": 1783,
+    "B": 2617,
+    "C": 1203,
+    "D": 646
+  },
+  "source_distribution_all": {
+    "official_train": 2825,
+    "hw1_augmented": 3424
+  }
+}
