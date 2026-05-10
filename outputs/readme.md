@@ -1,3 +1,3 @@
 ## Hugging Face Links
 
-- LoRA model adapter: https://huggingface.co/NYCU314617006/nycu-llm1
+- LoRA model adapter: https://huggingface.co/NYCU314617006/nycu-llm1-best-lora
