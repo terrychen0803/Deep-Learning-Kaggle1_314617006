@@ -170,11 +170,11 @@ ID,Answer
 | Exp-4 | Qwen2.5-0.5B-Instruct | mixed     | 3 | logit | 
 | Exp-5 | Qwen2.5-0.5B-Instruct | official  | 4 | logit |
 
-結果紀錄：
-Exp-1:
-validation accuraccy: 0.8462
-score: 0.62127
-Exp-2:
+結果紀錄：\
+Exp-1:\
+validation accuraccy: 0.8462\
+score: 0.62127\
+Exp-2:\
 改用1.5b模型，epoch增加為3，增加訓練量
 validation accuraccy: 0.9873
 score: 0.61276
