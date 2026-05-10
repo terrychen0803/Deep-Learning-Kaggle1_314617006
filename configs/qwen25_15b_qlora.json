@@ -1,0 +1,13 @@
+{
+  "base_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "method": "answer-only SFT with QLoRA",
+  "max_length": 768,
+  "epochs": 3,
+  "learning_rate": 0.0002,
+  "batch_size": 1,
+  "gradient_accumulation_steps": 16,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "inference_method": "next-token logit scoring over A/B/C/D"
+}
