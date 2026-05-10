@@ -175,24 +175,24 @@ Exp-1:\
 validation accuraccy: 0.8462\
 score: 0.62127\
 Exp-2:\
-改用1.5b模型，epoch增加為3，增加訓練量
-validation accuraccy: 0.9873
-score: 0.61276
-本地測試表現良好，但是分數不佳，推測對於資料過擬合
-Exp-3:
-改回0.5b模型，learning rate調低，增加drop out防止過擬合
-validation accuraccy: 0.9223
-score:0.66382
-分數有提升，繼續調整參數
-Exp-4:
-使用官方訓練集與補充訓練集混合資料
-validation accuraccy: 0.8864
-score:0.63404
-分數並沒有比較好，推測合併補充訓練集後答案分布偏向 B，而 D 很少，可能使模型產偏差
-Exp-5:
-改回使用原始資料集，已Exp-2為主調整參數，增加epoch數，降低learning rate
-validation accuraccy:valid accuracy = 0.9223
-score:0.63829
+改用1.5b模型，epoch增加為3，增加訓練量\
+validation accuraccy: 0.9873\
+score: 0.61276\
+本地測試表現良好，但是分數不佳，推測對於資料過擬合\
+Exp-3:\
+改回0.5b模型，learning rate調低，增加drop out防止過擬合\
+validation accuraccy: 0.9223\
+score:0.66382\
+分數有提升，繼續調整參數\
+Exp-4:\
+使用官方訓練集與補充訓練集混合資料\
+validation accuraccy: 0.8864\
+score:0.63404\
+分數並沒有比較好，推測合併補充訓練集後答案分布偏向 B，而 D 很少，可能使模型產偏差\
+Exp-5:\
+改回使用原始資料集，已Exp-2為主調整參數，增加epoch數，降低learning rate\
+validation accuraccy:valid accuracy = 0.9223\
+score:0.63829\
 
 
 ---
